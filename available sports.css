@@ -1,0 +1,99 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    
+}
+body{
+    background-image: url(available.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul li {
+    float: right;
+    display:inline;
+    font-size:medium
+    
+    
+}
+ul li a{
+    text-decoration:none ;
+    align-items:stretch;
+    color:white;
+    padding: 10px 20px;
+    margin-top: 25px;
+    
+    transition: 0.6s ease;
+    border: 20px;
+    border-color: white;
+    
+}
+ul li a:hover{
+    color:rgb(2, 107, 255);
+}
+#p1{
+    margin-left: 46%;
+}
+#p2{
+    margin-left: 48%;
+}
+#p3{
+    margin-left: 48%;
+}
+#p4{
+    margin-left: 48%;
+}
+#p5{
+    margin-left: 46%;
+}
+#p6{
+    margin-left: 46%;
+}
+#p11{
+    font-size:smaller;
+    margin-left: 30%;
+}
+#p22{
+    font-size:smaller;
+    margin-left: 30%;
+}
+#p33{
+    font-size:smaller;
+    margin-left: 30%;
+}
+#p44{
+    font-size:smaller;
+    margin-left: 30%;
+}
+#p55{
+    font-size:smaller;
+    margin-left: 30%;
+}
+#p66{
+    font-size:smaller;
+    margin-left: 30%;
+}
+.badminton>img{
+    height: 220px;
+    margin-left: 40%;
+    
+}
+.tennis>img{
+    height: 220px;
+    margin-left: 38%;
+}
+.hockey>img{
+    height: 220px;
+    margin-left: 38%;
+}
+.football>img{
+    height: 230px;
+    margin-left: 39%;
+}
+.basketball>img{
+    height: 220px;
+    margin-left: 39%;
+}
+.swimming>img{
+    height: 220px;
+    margin-left: 39%;
+}

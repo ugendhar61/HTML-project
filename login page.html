@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>login page</title>
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+    <div class="hero">
+<div class="form-box">
+    <h3> Premium sports club</h3>
+    <div class="button-box">
+        <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+        <button type="button" class="toggle-btn" onclick="register()">Register</button>
+    </div>
+    <div class="social-icons">
+        <img src='C:/Users/lenovo/Pictures/Camera Roll/fb.jpg'>
+        <img src='C:/Users/lenovo/Pictures/Camera Roll/gle.jpg'>
+        <img src='C:/Users/lenovo/Pictures/Camera Roll/tw.jpg'>
+    </div>
+    <form id="login" class="input-group">
+        <input type="text" class="input-feild" placeholder="User Id" required>
+        <input type="text" class="input-feild" placeholder="Enter Password" required>
+        <input type="checkbox" class="check-box"><span>Remember Password</span>
+        <button type="submit" class="submit-btn">Log In</nav></button>
+    </form>
+    <form id="register" class="input-group" method="get" action="file:///C:/Users/lenovo/.vscode/my%20website.html">
+        <input type="text" class="input-feild" placeholder="Enter Name" required>
+        <input type="email" class="input-feild" placeholder="Email Id" required>
+        <input type="text" class="input-feild" placeholder="Enter Password" required hidden>
+        <input type="checkbox" class="check-box" required><span>I agree to the Terms & Conditions</span>
+        <button type="submit" class="submit-btn">Register</button>  
+    </form>
+</div>
+
+    </div>
+
+    <script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+
+    function register(){
+        x.style.left="-400px"; 
+        y.style.left="50px"; 
+        z.style.left="110px"; 
+    }
+    function login(){
+        x.style.left="50px"; 
+        y.style.left="450px"; 
+        z.style.left="0"; 
+    }
+
+    </script>
+</body>
+</html>
